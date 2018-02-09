@@ -1,7 +1,7 @@
 # Site settings
 title: pxfile Blog
 SEOTitle: 彭晓芳的博客 | ShenBo Blog
-header-img: img/post-bg-desk.jpg
+header-img: img/post-bg-android.jpg
 email: pxfile@qq.com
 description: "Every failure is leading towards success."
 keyword: "pxfile Blog, 彭晓芳的博客, pxfile, 彭晓芳, android"
@@ -12,7 +12,7 @@ github_repo: "https://github.com/pxfile/pxfile.github.io.git" # you code reposit
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/about-me.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: /img/avatar_g.jpe      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
@@ -99,16 +99,10 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "并发编程网",
-        href: "http://ifeve.com/"
+        title: "InfoQ",
+        href: "http://www.infoq.com/cn/"
     },{
-        title: "台大李宏毅",
-        href: "http://speech.ee.ntu.edu.tw/~tlkagk/courses.html"
-    },{
-        title: "IBM Java社区",
-        href: "https://www.ibm.com/developerworks/cn/java"
-    },{
-        title: "Spring源码分析",
-        href: "http://www.shangyang.me/categories/Spring/"
+        title: "Android社区",
+        href: "https://developer.android.google.cn/index.html"
     }
 ]
