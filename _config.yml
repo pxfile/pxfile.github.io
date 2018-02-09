@@ -1,13 +1,13 @@
 # Site settings
-title: ShenBo Blog
-SEOTitle: 王慎波的博客 | ShenBo Blog
+title: pxfile Blog
+SEOTitle: 彭晓芳的博客 | ShenBo Blog
 header-img: img/post-bg-desk.jpg
-email: wangshenbo0512@126.com
+email: pxfile@qq.com
 description: "Every failure is leading towards success."
-keyword: "ShenBo Blog, 王慎波的博客, wangshenbo, 王慎波, Java, 数据库, 缓存"
-url: "http://wangshenbo.github.io"          # your host, for absolute URL
+keyword: "pxfile Blog, 彭晓芳的博客, pxfile, 彭晓芳, android"
+url: "http://pxfile.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
-github_repo: "https://github.com/wangshenbo/wangshenbo.github.io.git" # you code repository
+github_repo: "https://github.com/pxfile/pxfile.github.io.git" # you code repository
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
@@ -18,11 +18,11 @@ sidebar-avatar: /img/about-me.png      # use absolute URL, seeing it's used in b
 
 # SNS settings
 RSS: false
-weibo_username:     wangshenbo
-zhihu_username:     wangshenbo
-github_username:    wangshenbo
-facebook_username:  wangshenbo
-jianshu_username:   wangshenbo
+weibo_username:     pxfile
+zhihu_username:     pxfile
+github_username:    pxfile
+facebook_username:  pxfile
+jianshu_username:   pxfile
 #twitter_username:   qiubaiying
 
 
@@ -64,9 +64,9 @@ gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: f8372a96421217b8bc06   #生成的clientID
   clientSecret: 168258e66120e285f5e6854a70008ca0a1f8776e  #同上
-  repo: wangshenbo.github.io    #仓库名称
-  owner: wangshenbo    #github用户名
-  admin: wangshenbo
+  repo: pxfile.github.io    #仓库名称
+  owner: pxfile    #github用户名
+  admin: pxfile
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
