@@ -63,7 +63,7 @@ kramdown:
 gitalk:
   enable: true    #是否开启Gitalk评论
   clientID: 88788fe0ca40d79a3097   #生成的clientID
-  clientSecret: f2bfc6f6525c0f893303330acb8fdef5336a99b0  #同上
+  clientSecret: 563048db9f5f82d0148db0a8e805b03100d1e7ca  #同上
   repo: pxfile.github.io   #仓库名称
   owner: pxfile    #github用户名
   admin: pxfile
