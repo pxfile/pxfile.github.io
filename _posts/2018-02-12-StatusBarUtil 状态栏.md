@@ -20,30 +20,29 @@ tags:
 
 ### app里集成和封装StatusBarUtil
 * 1.在基类GMActivity里的gmInit方法
-![](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil1.png)
+![gmInit方法](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil1.png)
 
 * 2.设置有2个开关   
 (1)是否需要设置statusBar 
 > (有些页面是全屏显示，不需要显示statusBar，例如 欢迎页 WelcomeActivity，启动页 SplashActivity)       
  
  (2)是否头部是ImageView的界面设置状态栏
-![](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil2.png)
+![设置状态栏](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil2.png)
 > (首页，个人页，圈子详情的头部是图片)
 
 * 3.头部是ImageView的界面设置状态栏页面，需要根据不同的UI需求做相应的设置  
 > 例如首页，生成一个和状态栏高度一样背景是白色的StatusBarView，显示banner图片时StatusBarView透明度为0，当向上滑动页面到banner图完全消失显示搜索框时，StatusBarView的透明度为1，这样页面布局就不会和状态栏重叠。(基本思想都是这样，不同的是StatusBarView的显示根据页面要求不同显示也不同)
 * 4.具体实现
-![](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil3.png)
+![颜色风格](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil3.png)
 > 只需传不同的颜色值就可以任意更换statusBar的颜色风格
   
- ![](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil4.png)   
- > 由于状态栏是纯白色的，所以状态栏字体必须是深色模式。
+![深色模式](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil4.png)   
+> 由于状态栏是纯白色的，所以状态栏字体必须是深色模式。
  
-  ![](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil5.png) 
-  
-	> 非小米，非魅族并且是5.0版本的适配
+![5.0版本的适配](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil5.png) 
+> 非小米，非魅族并且是5.0版本的适配
 
-	![](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil6.png)
+![5.0版本的适配](http://ou21vt4uz.bkt.clouddn.com/StatusBarUtil6.png)
   
 * 4.设置深色状态栏字体模式   
 > 很多国内三方Android系统都有深色状态栏字体模式，但是目前只看到了小米和魅族公开了各自的实现方法，支持底层Android4.4以上的版本。而Android官方在6.0版本才有了深色状态栏字体API。
