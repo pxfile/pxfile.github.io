@@ -1,3 +1,17 @@
+--
+layout:     post
+title:      hybrid混合开发
+subtitle:   基于豆瓣Rexxar
+date:       2018-02-12
+author:     pxf
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
+    - hybrid 混合开发
+    - Rexxar
+    - Android
+---
+
 # Rexxar分享的内容
 
 * 1.什么是混合开发

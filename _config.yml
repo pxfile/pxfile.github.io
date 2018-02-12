@@ -1,10 +1,10 @@
 # Site settings
 title: pxfile Blog
-SEOTitle: 彭晓芳的博客 | ShenBo Blog
+SEOTitle: pxf的博客 | ShenBo Blog
 header-img: img/post-bg-android.jpg
 email: pxfile@qq.com
 description: "Every failure is leading towards success."
-keyword: "pxfile Blog, 彭晓芳的博客, pxfile, 彭晓芳, android"
+keyword: "pxfile Blog, pxf的博客, pxfile, pxf, android"
 url: "http://pxfile.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/pxfile/pxfile.github.io.git" # you code repository

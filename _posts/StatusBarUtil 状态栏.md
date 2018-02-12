@@ -1,3 +1,16 @@
+--
+layout:     post
+title:      StatusBarUtil 状态栏工具类
+subtitle:   状态栏
+date:       2018-02-12
+author:     pxf
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
+    - 状态栏
+    - StatusBar
+    - Android
+---
 ### StatusBarUtil 状态栏工具类
 [StatusBarUtil 状态栏工具类（实现沉浸式状态栏/变色状态栏)](http://jaeger.itscoder.com/android/2016/03/27/statusbar-util.html)
 
