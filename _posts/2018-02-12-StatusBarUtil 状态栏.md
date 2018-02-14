@@ -8,7 +8,6 @@ header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
     - 状态栏
-    - StatusBar
     - Android
 ---
 ### StatusBarUtil 状态栏工具类
