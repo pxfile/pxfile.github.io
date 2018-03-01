@@ -3,7 +3,7 @@ layout:     post
 title:      MAC 运行gradle报permission denied错误
 subtitle:   运行gradle报permission denied错误
 date:       2018-03-01
-author:     PXF
+author:     pxf
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
