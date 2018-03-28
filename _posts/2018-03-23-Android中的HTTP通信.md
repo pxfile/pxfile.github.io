@@ -23,14 +23,22 @@ Http（Hypertext transfer protocol）定义了浏览器怎么向万维网服务�
 ## http的工作流程
 
 当用户点击一个链接（假设URL为[http://www.tsinghua.edu.cn/chn/yxsz/index.html](http://www.tsinghua.edu.cn/chn/yxsz/index.html) ），所发生的事件流程：
+
 （1）浏览器分析连接所指向的页面的URL。
+
 （2）浏览器向DNS请求解析www.tsinghua.edu.cn的IP地址。
+
 （3）浏览器解析出服务器的IP地址。
+
 （4）浏览器与服务器建立TCP连接。
+
 （5）浏览器发出取文件指令：GET /chn/yxsz/index.html。
-（5）服务器给出响应，将文件index.html发送给浏览器。
-（6）释放TCP连接。
-（7）浏览器显示index.html的所用信息。
+
+（6）服务器给出响应，将文件index.html发送给浏览器。
+
+（7）释放TCP连接。
+
+（8）浏览器显示index.html的所用信息。
 
 ## Http的特点
 
