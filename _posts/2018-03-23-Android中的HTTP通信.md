@@ -13,8 +13,11 @@ Android中的HTTP通信
 
 文章内容包括：
 1.HTTP简介
+
 2.HTTP/1.0和HTTP/1.1之间的区别
+
 3.HTTP的请求头、响应头和状态码
+
 4.Android中的HttpUrlConnection
 
 # 1.Http简介
@@ -26,17 +29,24 @@ Http（Hypertext transfer protocol）定义了浏览器怎么向万维网服务�
 
 （1）浏览器分析连接所指向的页面的URL。
 
+
 （2）浏览器向DNS请求解析www.tsinghua.edu.cn的IP地址。
+
 
 （3）浏览器解析出服务器的IP地址。
 
+
 （4）浏览器与服务器建立TCP连接。
+
 
 （5）浏览器发出取文件指令：GET /chn/yxsz/index.html。
 
+
 （6）服务器给出响应，将文件index.html发送给浏览器。
 
+
 （7）释放TCP连接。
+
 
 （8）浏览器显示index.html的所用信息。
 
