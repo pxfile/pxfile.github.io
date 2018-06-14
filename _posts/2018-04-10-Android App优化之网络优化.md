@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      Android App优化之网络优化
+date:       2018-04-10
+author:     pxf
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
+    - Android
+---
 Android App优化之网络优化
 ===
  [Protobuffer和json深度对比](http://cxshun.iteye.com/blog/1974498)

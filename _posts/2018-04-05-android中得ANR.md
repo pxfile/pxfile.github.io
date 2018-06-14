@@ -1,3 +1,13 @@
+---
+layout:     post
+title:      android中得ANR
+date:       2018-04-01
+author:     pxf
+header-img: img/post-bg-universe.jpg
+catalog: true
+tags:
+    - Android
+---
 android中得ANR
 ===
 
