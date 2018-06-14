@@ -203,9 +203,9 @@ public E get(int key)
 public E get(int key, E valueIfKeyNotFound)
 ```
 查找键值
-`
+```
 public int keyAt(int index)
-`
+```
 
 注意上面的keyAt 因为内部使用了二分查找 找不到时返回小于0的数值，而不是返回-1
 
@@ -214,7 +214,7 @@ public int keyAt(int index)
 
 * 1.分页
 
-* 2.contentView+ViewHolder
+* 2.convertView+ViewHolder
 
 **convertView**
 
@@ -372,7 +372,7 @@ editor.putString("param1", "eva");
 editor.putInt("param2", 250);
 editor.commit();//2.3之后可以使用editor.apply(); 异步操作
 ```
-9.众多的drawable文件夹都有什么不同?
+## 众多的drawable文件夹都有什么不同?
 
 * 对分辨率进行区分 系统会自动使用分辨率下的资源
 也可使用一些范围来标识尺寸 
